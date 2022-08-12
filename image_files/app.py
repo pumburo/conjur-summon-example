@@ -4,8 +4,8 @@ try:
     username = os.environ['APP_USERNAME']
     password = os.environ['APP_PASSWORD']
 except:
-    username = "username"
-    password = "password"
+    username = "Can not pull username"
+    password = "Can not pull password"
 
 while True:
     print(username)
